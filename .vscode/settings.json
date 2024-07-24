@@ -1,5 +1,5 @@
 {
     "workbench.settings.editor": "ui",
     "workbench.settings.useSplitJSON": true,
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
 }
