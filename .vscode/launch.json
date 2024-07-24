@@ -11,7 +11,7 @@
             "program": "intro",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "/Users/derek/Documents/Code/Git/comp/learning/c++",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "lldb"
