@@ -1,4 +1,6 @@
 #include <iostream>
+#include "functions.h"
+
 using namespace std;
 
 // rm * - clear directions
@@ -8,10 +10,10 @@ using namespace std;
 int myNum = 0;
 int maxNum = 10;
 
-int main(){
+int forlooptest(){
 
     for (int i =  0; i < maxNum; i++ ){
-        myNum = i * i;
+        myNum = i + i;
         cout << myNum;
         cout << "\n";
     }
