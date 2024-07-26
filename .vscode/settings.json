@@ -2,4 +2,8 @@
     "workbench.settings.editor": "ui",
     "workbench.settings.useSplitJSON": true,
     "explorer.compactFolders": false,
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "string": "cpp"
+    },
 }

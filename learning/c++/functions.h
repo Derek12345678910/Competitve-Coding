@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -8,6 +9,6 @@ int randomNumGen(int max);
 
 int createHuman(string name);
 
-int arrayLength(string array); // return array length
+int arrayLength(string arrayreturn[], int sizeofArray); // return array length
 
 

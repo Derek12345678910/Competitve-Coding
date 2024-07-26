@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 #include "functions.h"
 
 using namespace std;
@@ -13,8 +15,9 @@ int randomNumGen(int max)
 	return random;
 }
 
-int arrayLength(string array)
+int arrayLength(string arrayreturn[], int sizeofArray)
 { // return array length
-    int length = sizeof(array) / sizeof(array[0]);
+    int length = sizeofArray / sizeof(arrayreturn[0]);
+    cout << "\nLength: " << length;
     return length;
 }
