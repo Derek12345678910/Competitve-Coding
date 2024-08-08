@@ -4,6 +4,8 @@
     "explorer.compactFolders": false,
     "files.associations": {
         "*.embeddedhtml": "html",
-        "string": "cpp"
+        "string": "cpp",
+        "__locale": "cpp",
+        "string_view": "cpp"
     },
 }

@@ -7,7 +7,9 @@ using namespace std;
 
 int main(){ // is run at the start of the program
 
-    createHuman("Derek");
+    int human = createHuman("Derek");
+
+    cout << "\nObject: " << human;
 
     return 0;
 }

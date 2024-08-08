@@ -22,9 +22,11 @@ int createHuman(string name)
 
     creation.firstName = name;
 
-    int length = arrayLength(lastNames, sizeof(lastNames));
+    int LNlength = arrayLength(lastNames, sizeof(lastNames));
 
-    cout << "\nRandom Num " << randomNumGen(length);
+    creation.lastName = lastNames[randomNumGen(LNlength)];
+
+    cout << "\nRandom Num " << randomNumGen(LNlength);
 
     return 0;
 
