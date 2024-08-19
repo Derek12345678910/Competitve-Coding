@@ -24,37 +24,34 @@ Given a roman numeral, convert it to an integer.
 
 using namespace std;
 
-class Solution {
-public:
-    int romanToInt(string s) {
-        map<char, int> romanToIntMap = {
-            {'I', 1}, 
-            {'V', 5}, 
-            {'X', 10}, 
-            {'L', 50}, 
-            {'C', 100},
-            {'D', 500}, 
-            {'M', 1000}
-        };
-        int result = 0;
-        int length = s.size();
-        for (int i = 0; i < length; i++){
-            int value = romanToIntMap[s[i]];
-            if (i + 1 < length && romanToIntMap[s[i]] < romanToIntMap[s[i + 1]]){
-                result -= value;
-            } else {
-                result += value;
-            }
+int romanToInt(string s) {
+    map<char, int> romanToIntMap = {
+        {'I', 1}, 
+        {'V', 5}, 
+        {'X', 10}, 
+        {'L', 50}, 
+        {'C', 100},
+        {'D', 500}, 
+        {'M', 1000}
+    };
+    int result = 0;
+    int length = s.size();
+    for (int i = 0; i < length; i++){
+        int value = romanToIntMap[s[i]];
+        if (i + 1 < length && romanToIntMap[s[i]] < romanToIntMap[s[i + 1]]){
+            result -= value;
+        } else {
+            result += value;
         }
-        return result;
     }
-};
+    return result;
+}
+
 
 int leetcode13(){
 
-    Solution sol;
     string roman = "MCMXCIV";
-    cout << roman << " converts to " << sol.romanToInt(roman);
+    cout << roman << " converts to " << romanToInt(roman);
 
     return 0;
 }

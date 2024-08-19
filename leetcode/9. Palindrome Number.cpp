@@ -24,34 +24,33 @@ Input: x = 10
 Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 */
+#include <iostream>
+using namespace std;
 
-class Solution {
-public:
-    bool isPalindrome(int x) {
-        long number = x;
-        long reversed = 0;
-        while (number != 0){
-            int digit = number % 10;
-            reversed = reversed * 10 + digit;
-            number = (number - digit) / 10;
-        }
-        if (reversed == x && reversed >= 0){
-            return true;
-        }
-        else{
-            return false;
-        }
-        
+bool isPalindrome(long x) {
+    long number = x;
+    long reversed = 0;
+    while (number != 0){
+        int digit = number % 10;
+        reversed = reversed * 10 + digit;
+        number = (number - digit) / 10;
     }
-};
+    if (reversed == x && reversed >= 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
+}
+
 
 int leetcode9() {
-    Solution sol;
-    int testNumber = -121;
-    if (sol.isPalindrome(testNumber)) {
-        std::cout << testNumber << " is a palindrome.\n";
+    long testNumber = -121;
+    if (isPalindrome(testNumber)) {
+        cout << testNumber << " is a palindrome.\n";
     } else {
-        std::cout << testNumber << " is not a palindrome.\n";
+        cout << testNumber << " is not a palindrome.\n";
     }
     return 0;
 }
