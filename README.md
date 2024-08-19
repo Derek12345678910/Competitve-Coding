@@ -1,2 +1,5 @@
 # comp
-Learning code + competitive code
+Learning C++ and doing competitve programming in it
+Mainly from
+LEETCODE
+CCC Problems
