@@ -27,7 +27,7 @@ int main(){
     */
 
     // Run the code
-    leetcode9();
+    
     
     return 0;
 }
