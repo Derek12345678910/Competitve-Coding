@@ -1,18 +1,20 @@
 #include <iostream>
-#include "main.h"
+#include "comp.h"
+#include "leetcode.h"
 
 using namespace std;
 
-string type = "leetcode";
+/*
+STEPS
+1. ./loader.py --> to update header files
+2. make --> to create executable
+3. ./project.exe --> to run executable
+*/
 
 int main(){
 
     // Run specific file of choosing
-    if (type == "leetcode"){
-        // Leetcode file
-    }
-    else if (type == "comp"){
-        // Comp file
-    }
+    
+    
     return 0;
 }
