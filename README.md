@@ -1,2 +1,6 @@
 # comp
-Learning code + competitive code
+Learning competitve coding using C++ and CMAKE
+
+Mainly from
+LeetCode 
+CCC
