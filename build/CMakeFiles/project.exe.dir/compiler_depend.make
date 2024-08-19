@@ -825,10 +825,14 @@ CMakeFiles/project.exe.dir/main.cpp.o: /Users/derek/Developer/Code/Git/comp/main
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
-  /Users/derek/Developer/Code/Git/comp/main.h
+  /Users/derek/Developer/Code/Git/comp/comp.h \
+  /Users/derek/Developer/Code/Git/comp/leetcode.h \
+  /Users/derek/Developer/Code/Git/comp/leetcode/9.\ Palindrome\ Number.cpp
 
 
-/Users/derek/Developer/Code/Git/comp/main.h:
+/Users/derek/Developer/Code/Git/comp/leetcode/9.\ Palindrome\ Number.cpp:
+
+/Users/derek/Developer/Code/Git/comp/leetcode.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h:
 
@@ -945,6 +949,8 @@ CMakeFiles/project.exe.dir/main.cpp.o: /Users/derek/Developer/Code/Git/comp/main
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_ptrcheck.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/types.h:
+
+/Users/derek/Developer/Code/Git/comp/comp.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/signal.h:
 
