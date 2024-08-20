@@ -4,7 +4,7 @@
 #include <vector>
 
 using namespace std;
-
+ 
 int S22024(){
 
 }
