@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/run.exe.dir/comp/J12024.cpp.o.d"
   "CMakeFiles/run.exe.dir/comp/S12024.cpp.o"
   "CMakeFiles/run.exe.dir/comp/S12024.cpp.o.d"
+  "CMakeFiles/run.exe.dir/comp/S22024.cpp.o"
+  "CMakeFiles/run.exe.dir/comp/S22024.cpp.o.d"
   "CMakeFiles/run.exe.dir/leetcode/13.cpp.o"
   "CMakeFiles/run.exe.dir/leetcode/13.cpp.o.d"
   "CMakeFiles/run.exe.dir/leetcode/9.cpp.o"

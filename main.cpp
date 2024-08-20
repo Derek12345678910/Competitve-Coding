@@ -35,7 +35,6 @@ int main(){
     */
 
     // Run the code
-    J12024();
 
     return 0;
 }

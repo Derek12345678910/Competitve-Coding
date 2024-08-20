@@ -1,12 +1,6 @@
 [
 {
   "directory": "/Users/derek/Developer/Code/Git/comp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/main.cpp.o -c /Users/derek/Developer/Code/Git/comp/main.cpp",
-  "file": "/Users/derek/Developer/Code/Git/comp/main.cpp",
-  "output": "CMakeFiles/run.exe.dir/main.cpp.o"
-},
-{
-  "directory": "/Users/derek/Developer/Code/Git/comp/build",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/comp/J12024.cpp.o -c /Users/derek/Developer/Code/Git/comp/comp/J12024.cpp",
   "file": "/Users/derek/Developer/Code/Git/comp/comp/J12024.cpp",
   "output": "CMakeFiles/run.exe.dir/comp/J12024.cpp.o"
@@ -19,14 +13,26 @@
 },
 {
   "directory": "/Users/derek/Developer/Code/Git/comp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/leetcode/9.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp",
-  "file": "/Users/derek/Developer/Code/Git/comp/leetcode/9.cpp",
-  "output": "CMakeFiles/run.exe.dir/leetcode/9.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/comp/S22024.cpp.o -c /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp",
+  "file": "/Users/derek/Developer/Code/Git/comp/comp/S22024.cpp",
+  "output": "CMakeFiles/run.exe.dir/comp/S22024.cpp.o"
 },
 {
   "directory": "/Users/derek/Developer/Code/Git/comp/build",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/leetcode/13.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/13.cpp",
   "file": "/Users/derek/Developer/Code/Git/comp/leetcode/13.cpp",
   "output": "CMakeFiles/run.exe.dir/leetcode/13.cpp.o"
+},
+{
+  "directory": "/Users/derek/Developer/Code/Git/comp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/leetcode/9.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp",
+  "file": "/Users/derek/Developer/Code/Git/comp/leetcode/9.cpp",
+  "output": "CMakeFiles/run.exe.dir/leetcode/9.cpp.o"
+},
+{
+  "directory": "/Users/derek/Developer/Code/Git/comp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/run.exe.dir/main.cpp.o -c /Users/derek/Developer/Code/Git/comp/main.cpp",
+  "file": "/Users/derek/Developer/Code/Git/comp/main.cpp",
+  "output": "CMakeFiles/run.exe.dir/main.cpp.o"
 }
 ]

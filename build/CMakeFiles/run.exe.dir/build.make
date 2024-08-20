@@ -69,24 +69,10 @@ include CMakeFiles/run.exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.exe.dir/flags.make
 
-CMakeFiles/run.exe.dir/main.cpp.o: CMakeFiles/run.exe.dir/flags.make
-CMakeFiles/run.exe.dir/main.cpp.o: /Users/derek/Developer/Code/Git/comp/main.cpp
-CMakeFiles/run.exe.dir/main.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.exe.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/main.cpp.o -MF CMakeFiles/run.exe.dir/main.cpp.o.d -o CMakeFiles/run.exe.dir/main.cpp.o -c /Users/derek/Developer/Code/Git/comp/main.cpp
-
-CMakeFiles/run.exe.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.exe.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/derek/Developer/Code/Git/comp/main.cpp > CMakeFiles/run.exe.dir/main.cpp.i
-
-CMakeFiles/run.exe.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/main.cpp -o CMakeFiles/run.exe.dir/main.cpp.s
-
 CMakeFiles/run.exe.dir/comp/J12024.cpp.o: CMakeFiles/run.exe.dir/flags.make
 CMakeFiles/run.exe.dir/comp/J12024.cpp.o: /Users/derek/Developer/Code/Git/comp/comp/J12024.cpp
 CMakeFiles/run.exe.dir/comp/J12024.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.exe.dir/comp/J12024.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.exe.dir/comp/J12024.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/comp/J12024.cpp.o -MF CMakeFiles/run.exe.dir/comp/J12024.cpp.o.d -o CMakeFiles/run.exe.dir/comp/J12024.cpp.o -c /Users/derek/Developer/Code/Git/comp/comp/J12024.cpp
 
 CMakeFiles/run.exe.dir/comp/J12024.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/run.exe.dir/comp/J12024.cpp.s: cmake_force
 CMakeFiles/run.exe.dir/comp/S12024.cpp.o: CMakeFiles/run.exe.dir/flags.make
 CMakeFiles/run.exe.dir/comp/S12024.cpp.o: /Users/derek/Developer/Code/Git/comp/comp/S12024.cpp
 CMakeFiles/run.exe.dir/comp/S12024.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run.exe.dir/comp/S12024.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.exe.dir/comp/S12024.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/comp/S12024.cpp.o -MF CMakeFiles/run.exe.dir/comp/S12024.cpp.o.d -o CMakeFiles/run.exe.dir/comp/S12024.cpp.o -c /Users/derek/Developer/Code/Git/comp/comp/S12024.cpp
 
 CMakeFiles/run.exe.dir/comp/S12024.cpp.i: cmake_force
@@ -111,24 +97,24 @@ CMakeFiles/run.exe.dir/comp/S12024.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/comp/S12024.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/comp/S12024.cpp -o CMakeFiles/run.exe.dir/comp/S12024.cpp.s
 
-CMakeFiles/run.exe.dir/leetcode/9.cpp.o: CMakeFiles/run.exe.dir/flags.make
-CMakeFiles/run.exe.dir/leetcode/9.cpp.o: /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp
-CMakeFiles/run.exe.dir/leetcode/9.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run.exe.dir/leetcode/9.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/leetcode/9.cpp.o -MF CMakeFiles/run.exe.dir/leetcode/9.cpp.o.d -o CMakeFiles/run.exe.dir/leetcode/9.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp
+CMakeFiles/run.exe.dir/comp/S22024.cpp.o: CMakeFiles/run.exe.dir/flags.make
+CMakeFiles/run.exe.dir/comp/S22024.cpp.o: /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp
+CMakeFiles/run.exe.dir/comp/S22024.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run.exe.dir/comp/S22024.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/comp/S22024.cpp.o -MF CMakeFiles/run.exe.dir/comp/S22024.cpp.o.d -o CMakeFiles/run.exe.dir/comp/S22024.cpp.o -c /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp
 
-CMakeFiles/run.exe.dir/leetcode/9.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.exe.dir/leetcode/9.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp > CMakeFiles/run.exe.dir/leetcode/9.cpp.i
+CMakeFiles/run.exe.dir/comp/S22024.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.exe.dir/comp/S22024.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp > CMakeFiles/run.exe.dir/comp/S22024.cpp.i
 
-CMakeFiles/run.exe.dir/leetcode/9.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/leetcode/9.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp -o CMakeFiles/run.exe.dir/leetcode/9.cpp.s
+CMakeFiles/run.exe.dir/comp/S22024.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/comp/S22024.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp -o CMakeFiles/run.exe.dir/comp/S22024.cpp.s
 
 CMakeFiles/run.exe.dir/leetcode/13.cpp.o: CMakeFiles/run.exe.dir/flags.make
 CMakeFiles/run.exe.dir/leetcode/13.cpp.o: /Users/derek/Developer/Code/Git/comp/leetcode/13.cpp
 CMakeFiles/run.exe.dir/leetcode/13.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run.exe.dir/leetcode/13.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run.exe.dir/leetcode/13.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/leetcode/13.cpp.o -MF CMakeFiles/run.exe.dir/leetcode/13.cpp.o.d -o CMakeFiles/run.exe.dir/leetcode/13.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/13.cpp
 
 CMakeFiles/run.exe.dir/leetcode/13.cpp.i: cmake_force
@@ -139,25 +125,55 @@ CMakeFiles/run.exe.dir/leetcode/13.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/leetcode/13.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/leetcode/13.cpp -o CMakeFiles/run.exe.dir/leetcode/13.cpp.s
 
+CMakeFiles/run.exe.dir/leetcode/9.cpp.o: CMakeFiles/run.exe.dir/flags.make
+CMakeFiles/run.exe.dir/leetcode/9.cpp.o: /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp
+CMakeFiles/run.exe.dir/leetcode/9.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run.exe.dir/leetcode/9.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/leetcode/9.cpp.o -MF CMakeFiles/run.exe.dir/leetcode/9.cpp.o.d -o CMakeFiles/run.exe.dir/leetcode/9.cpp.o -c /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp
+
+CMakeFiles/run.exe.dir/leetcode/9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.exe.dir/leetcode/9.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp > CMakeFiles/run.exe.dir/leetcode/9.cpp.i
+
+CMakeFiles/run.exe.dir/leetcode/9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/leetcode/9.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/leetcode/9.cpp -o CMakeFiles/run.exe.dir/leetcode/9.cpp.s
+
+CMakeFiles/run.exe.dir/main.cpp.o: CMakeFiles/run.exe.dir/flags.make
+CMakeFiles/run.exe.dir/main.cpp.o: /Users/derek/Developer/Code/Git/comp/main.cpp
+CMakeFiles/run.exe.dir/main.cpp.o: CMakeFiles/run.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/run.exe.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.exe.dir/main.cpp.o -MF CMakeFiles/run.exe.dir/main.cpp.o.d -o CMakeFiles/run.exe.dir/main.cpp.o -c /Users/derek/Developer/Code/Git/comp/main.cpp
+
+CMakeFiles/run.exe.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.exe.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/derek/Developer/Code/Git/comp/main.cpp > CMakeFiles/run.exe.dir/main.cpp.i
+
+CMakeFiles/run.exe.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.exe.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/derek/Developer/Code/Git/comp/main.cpp -o CMakeFiles/run.exe.dir/main.cpp.s
+
 # Object files for target run.exe
 run_exe_OBJECTS = \
-"CMakeFiles/run.exe.dir/main.cpp.o" \
 "CMakeFiles/run.exe.dir/comp/J12024.cpp.o" \
 "CMakeFiles/run.exe.dir/comp/S12024.cpp.o" \
+"CMakeFiles/run.exe.dir/comp/S22024.cpp.o" \
+"CMakeFiles/run.exe.dir/leetcode/13.cpp.o" \
 "CMakeFiles/run.exe.dir/leetcode/9.cpp.o" \
-"CMakeFiles/run.exe.dir/leetcode/13.cpp.o"
+"CMakeFiles/run.exe.dir/main.cpp.o"
 
 # External object files for target run.exe
 run_exe_EXTERNAL_OBJECTS =
 
-run.exe: CMakeFiles/run.exe.dir/main.cpp.o
 run.exe: CMakeFiles/run.exe.dir/comp/J12024.cpp.o
 run.exe: CMakeFiles/run.exe.dir/comp/S12024.cpp.o
-run.exe: CMakeFiles/run.exe.dir/leetcode/9.cpp.o
+run.exe: CMakeFiles/run.exe.dir/comp/S22024.cpp.o
 run.exe: CMakeFiles/run.exe.dir/leetcode/13.cpp.o
+run.exe: CMakeFiles/run.exe.dir/leetcode/9.cpp.o
+run.exe: CMakeFiles/run.exe.dir/main.cpp.o
 run.exe: CMakeFiles/run.exe.dir/build.make
 run.exe: CMakeFiles/run.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable run.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable run.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

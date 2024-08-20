@@ -1,5 +1,5 @@
-CMakeFiles/run.exe.dir/comp/S12024.cpp.o: \
-  /Users/derek/Developer/Code/Git/comp/comp/S12024.cpp \
+CMakeFiles/run.exe.dir/comp/S22024.cpp.o: \
+  /Users/derek/Developer/Code/Git/comp/comp/S22024.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
