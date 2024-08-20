@@ -1,6 +1,6 @@
-#include <iostream>
+//#include <iostream>
 #include "comp.h"
-#include "leetcode.h"
+//#include "leetcode.h"
 
 using namespace std;
 
@@ -12,22 +12,30 @@ STEPS
 4. ./project.exe --> to run executable
 
 IF YOU NEED TO GO OUT OF BUILD DIRECTORY 
-1. pwd --> to get path
-2. copy and paste the path --> cd (pasted)
+1. cd - --> to go back
+
+OTHER COMMANDS
+pwd --> show directory path
+ls --> show directory children 
 */
+/*
+int J12024()
+{
+    return 0;
+}
+//*/
 
 int main(){
 
     /*
-    LEETCODE
+    LEETCODE ------
     leetcode + question number
-
-    COMP
-
+    COMP ------
+    grade + number + year
     */
 
     // Run the code
-    
-    
+    J12024();
+
     return 0;
 }

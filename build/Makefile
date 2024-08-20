@@ -117,24 +117,120 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named project.exe
+# Target rules for targets named run.exe
 
 # Build rule for target.
-project.exe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project.exe
-.PHONY : project.exe
+run.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run.exe
+.PHONY : run.exe
 
 # fast build rule for target.
-project.exe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/build
-.PHONY : project.exe/fast
+run.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/build
+.PHONY : run.exe/fast
+
+comp/J12024.o: comp/J12024.cpp.o
+.PHONY : comp/J12024.o
+
+# target to build an object file
+comp/J12024.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/J12024.cpp.o
+.PHONY : comp/J12024.cpp.o
+
+comp/J12024.i: comp/J12024.cpp.i
+.PHONY : comp/J12024.i
+
+# target to preprocess a source file
+comp/J12024.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/J12024.cpp.i
+.PHONY : comp/J12024.cpp.i
+
+comp/J12024.s: comp/J12024.cpp.s
+.PHONY : comp/J12024.s
+
+# target to generate assembly for a file
+comp/J12024.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/J12024.cpp.s
+.PHONY : comp/J12024.cpp.s
+
+comp/S12024.o: comp/S12024.cpp.o
+.PHONY : comp/S12024.o
+
+# target to build an object file
+comp/S12024.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S12024.cpp.o
+.PHONY : comp/S12024.cpp.o
+
+comp/S12024.i: comp/S12024.cpp.i
+.PHONY : comp/S12024.i
+
+# target to preprocess a source file
+comp/S12024.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S12024.cpp.i
+.PHONY : comp/S12024.cpp.i
+
+comp/S12024.s: comp/S12024.cpp.s
+.PHONY : comp/S12024.s
+
+# target to generate assembly for a file
+comp/S12024.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S12024.cpp.s
+.PHONY : comp/S12024.cpp.s
+
+leetcode/13.o: leetcode/13.cpp.o
+.PHONY : leetcode/13.o
+
+# target to build an object file
+leetcode/13.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/13.cpp.o
+.PHONY : leetcode/13.cpp.o
+
+leetcode/13.i: leetcode/13.cpp.i
+.PHONY : leetcode/13.i
+
+# target to preprocess a source file
+leetcode/13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/13.cpp.i
+.PHONY : leetcode/13.cpp.i
+
+leetcode/13.s: leetcode/13.cpp.s
+.PHONY : leetcode/13.s
+
+# target to generate assembly for a file
+leetcode/13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/13.cpp.s
+.PHONY : leetcode/13.cpp.s
+
+leetcode/9.o: leetcode/9.cpp.o
+.PHONY : leetcode/9.o
+
+# target to build an object file
+leetcode/9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/9.cpp.o
+.PHONY : leetcode/9.cpp.o
+
+leetcode/9.i: leetcode/9.cpp.i
+.PHONY : leetcode/9.i
+
+# target to preprocess a source file
+leetcode/9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/9.cpp.i
+.PHONY : leetcode/9.cpp.i
+
+leetcode/9.s: leetcode/9.cpp.s
+.PHONY : leetcode/9.s
+
+# target to generate assembly for a file
+leetcode/9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/leetcode/9.cpp.s
+.PHONY : leetcode/9.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +246,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +257,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... project.exe"
+	@echo "... run.exe"
+	@echo "... comp/J12024.o"
+	@echo "... comp/J12024.i"
+	@echo "... comp/J12024.s"
+	@echo "... comp/S12024.o"
+	@echo "... comp/S12024.i"
+	@echo "... comp/S12024.s"
+	@echo "... leetcode/13.o"
+	@echo "... leetcode/13.i"
+	@echo "... leetcode/13.s"
+	@echo "... leetcode/9.o"
+	@echo "... leetcode/9.i"
+	@echo "... leetcode/9.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

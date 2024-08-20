@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/derek/Developer/Code/Git/comp/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/project.exe.dir/all
+all: CMakeFiles/run.exe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/project.exe.dir/clean
+clean: CMakeFiles/run.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/project.exe.dir
+# Target rules for target CMakeFiles/run.exe.dir
 
 # All Build rule for target.
-CMakeFiles/project.exe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=1,2 "Built target project.exe"
-.PHONY : CMakeFiles/project.exe.dir/all
+CMakeFiles/run.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/derek/Developer/Code/Git/comp/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target run.exe"
+.PHONY : CMakeFiles/run.exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/project.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/derek/Developer/Code/Git/comp/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project.exe.dir/all
+CMakeFiles/run.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/derek/Developer/Code/Git/comp/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/derek/Developer/Code/Git/comp/build/CMakeFiles 0
-.PHONY : CMakeFiles/project.exe.dir/rule
+.PHONY : CMakeFiles/run.exe.dir/rule
 
 # Convenience name for target.
-project.exe: CMakeFiles/project.exe.dir/rule
-.PHONY : project.exe
+run.exe: CMakeFiles/run.exe.dir/rule
+.PHONY : run.exe
 
 # clean rule for target.
-CMakeFiles/project.exe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.exe.dir/build.make CMakeFiles/project.exe.dir/clean
-.PHONY : CMakeFiles/project.exe.dir/clean
+CMakeFiles/run.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/clean
+.PHONY : CMakeFiles/run.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
