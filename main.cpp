@@ -35,6 +35,7 @@ int main(){
     */
 
     // Run the code
+    main1();
 
     return 0;
 }
