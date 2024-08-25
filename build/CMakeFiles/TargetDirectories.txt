@@ -1,3 +1,0 @@
-/Users/derek/Developer/Code/Git/comp/build/CMakeFiles/run.exe.dir
-/Users/derek/Developer/Code/Git/comp/build/CMakeFiles/edit_cache.dir
-/Users/derek/Developer/Code/Git/comp/build/CMakeFiles/rebuild_cache.dir
