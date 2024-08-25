@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/derek/Developer/Code/Git/comp/comp/J12024.cpp" "CMakeFiles/run.exe.dir/comp/J12024.cpp.o" "gcc" "CMakeFiles/run.exe.dir/comp/J12024.cpp.o.d"
   "/Users/derek/Developer/Code/Git/comp/comp/S12024.cpp" "CMakeFiles/run.exe.dir/comp/S12024.cpp.o" "gcc" "CMakeFiles/run.exe.dir/comp/S12024.cpp.o.d"
   "/Users/derek/Developer/Code/Git/comp/comp/S22024.cpp" "CMakeFiles/run.exe.dir/comp/S22024.cpp.o" "gcc" "CMakeFiles/run.exe.dir/comp/S22024.cpp.o.d"
+  "/Users/derek/Developer/Code/Git/comp/comp/S32024.cpp" "CMakeFiles/run.exe.dir/comp/S32024.cpp.o" "gcc" "CMakeFiles/run.exe.dir/comp/S32024.cpp.o.d"
   "/Users/derek/Developer/Code/Git/comp/leetcode/13.cpp" "CMakeFiles/run.exe.dir/leetcode/13.cpp.o" "gcc" "CMakeFiles/run.exe.dir/leetcode/13.cpp.o.d"
   "/Users/derek/Developer/Code/Git/comp/leetcode/9.cpp" "CMakeFiles/run.exe.dir/leetcode/9.cpp.o" "gcc" "CMakeFiles/run.exe.dir/leetcode/9.cpp.o.d"
   "/Users/derek/Developer/Code/Git/comp/main.cpp" "CMakeFiles/run.exe.dir/main.cpp.o" "gcc" "CMakeFiles/run.exe.dir/main.cpp.o.d"

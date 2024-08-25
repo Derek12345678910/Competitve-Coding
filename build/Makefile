@@ -201,6 +201,30 @@ comp/S22024.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S22024.cpp.s
 .PHONY : comp/S22024.cpp.s
 
+comp/S32024.o: comp/S32024.cpp.o
+.PHONY : comp/S32024.o
+
+# target to build an object file
+comp/S32024.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S32024.cpp.o
+.PHONY : comp/S32024.cpp.o
+
+comp/S32024.i: comp/S32024.cpp.i
+.PHONY : comp/S32024.i
+
+# target to preprocess a source file
+comp/S32024.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S32024.cpp.i
+.PHONY : comp/S32024.cpp.i
+
+comp/S32024.s: comp/S32024.cpp.s
+.PHONY : comp/S32024.s
+
+# target to generate assembly for a file
+comp/S32024.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.exe.dir/build.make CMakeFiles/run.exe.dir/comp/S32024.cpp.s
+.PHONY : comp/S32024.cpp.s
+
 leetcode/13.o: leetcode/13.cpp.o
 .PHONY : leetcode/13.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... comp/S22024.o"
 	@echo "... comp/S22024.i"
 	@echo "... comp/S22024.s"
+	@echo "... comp/S32024.o"
+	@echo "... comp/S32024.i"
+	@echo "... comp/S32024.s"
 	@echo "... leetcode/13.o"
 	@echo "... leetcode/13.i"
 	@echo "... leetcode/13.s"
