@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#if 0
+
 vector<bool> visited;
 string colour;
 vector<vector<pair<int, int>>> adj;
@@ -54,9 +56,7 @@ int S42024(){
     return 0;
 }
 
-
-#if 1
-int main()
+int main1()
 {
     S42024();
     return 0;

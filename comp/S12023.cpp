@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#if 0
+
 int c;
 
 vector<int>row1;
@@ -55,7 +57,6 @@ int S12023(){
     return 0;
 }
 
-#if 1
 int main1(){
     S12023();
     return 0;

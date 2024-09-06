@@ -124,7 +124,9 @@ int S32024(){
     return 0;
 }
 
-int main(){
+#if 0
+int main1(){
     S32024();
     return 0;
 }
+#endif

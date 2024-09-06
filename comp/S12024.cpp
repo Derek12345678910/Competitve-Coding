@@ -33,9 +33,9 @@ int S12024() {
     return matches;
 }
 
-/* NEEDED FOR COMP SUBMISSION
+#if 0
 int main (){
     cout << S12024();
     return 0;
 }
-*/
+#endif
