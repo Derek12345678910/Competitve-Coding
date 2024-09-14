@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#if 0
+
 int S12024() {
     long N;
 
@@ -33,8 +35,7 @@ int S12024() {
     return matches;
 }
 
-#if 0
-int main (){
+int main1(){
     cout << S12024();
     return 0;
 }

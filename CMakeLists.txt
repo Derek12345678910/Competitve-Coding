@@ -4,9 +4,11 @@ set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
 
 # Add all files
 file(GLOB SOURCE_FILES
-    "${CMAKE_SOURCE_DIR}/comp/*.cpp"
+    "${CMAKE_SOURCE_DIR}/compS/*/*.cpp"
+    "${CMAKE_SOURCE_DIR}/compJ/*/*.cpp"
     "${CMAKE_SOURCE_DIR}/leetcode/*.cpp"
     "${CMAKE_SOURCE_DIR}/main.cpp"
+    "${CMAKE_SOURCE_DIR}/random/*.cpp"
 )
 
 # Add executable target with source files listed in SOURCE_FILES variable

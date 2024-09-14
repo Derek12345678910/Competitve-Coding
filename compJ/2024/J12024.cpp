@@ -23,7 +23,7 @@ Explanation of Output for Sample Input
 This customer chose 0 red plates, 2 green plates, and 4 blue plates. Therefore, the cost of
 the meal in dollars is 0 × 3 + 2 × 4 + 4 × 5 = 28
 */
-#include "../comp.h"
+#include "../../comp.h"
 
 using namespace std;
 

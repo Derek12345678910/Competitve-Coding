@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#if 0
+
 int question(){
 
 
@@ -12,7 +14,7 @@ int question(){
     return 0;
 }
 
-#if 0
+
 int main1(){
     question();
     return 0;

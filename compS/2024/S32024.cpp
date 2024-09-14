@@ -6,6 +6,8 @@
 
 using namespace std;
 
+#if 0
+
 bool canTransform(vector<int>& A, vector<int>& B, vector<tuple<char, int, int>>& swipes){
     int n = A.size();
     int start = -1;
@@ -123,8 +125,6 @@ int S32024(){
     }
     return 0;
 }
-
-#if 0
 int main1(){
     S32024();
     return 0;
