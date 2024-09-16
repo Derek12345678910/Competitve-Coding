@@ -9,6 +9,15 @@ using namespace std;
 
 int question(){
 
+    int l, s;
+    cin >> l >> s;
+
+    int lamo = l*8, samo = s*3;
+
+    int ans = lamo + samo - 28;
+
+    cout << ans;
+
     return 0;
 }
 
