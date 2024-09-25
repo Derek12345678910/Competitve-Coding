@@ -7,6 +7,7 @@ file(GLOB SOURCE_FILES
     "${CMAKE_SOURCE_DIR}/compS/*/*.cpp"
     "${CMAKE_SOURCE_DIR}/compJ/*/*.cpp"
     "${CMAKE_SOURCE_DIR}/leetcode/*.cpp"
+    "${CMAKE_SOURCE_DIR}/olyimpiads/*/*.cpp"
     "${CMAKE_SOURCE_DIR}/main.cpp"
     "${CMAKE_SOURCE_DIR}/random/*.cpp"
 )
