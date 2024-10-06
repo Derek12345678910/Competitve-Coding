@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)  # CMake version check
 project(COMP)               # Create project "simple_example"
-set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
+set(CMAKE_CXX_STANDARD 20)            # Enable c++14 standard
 
 # Add all files
 file(GLOB SOURCE_FILES
