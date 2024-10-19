@@ -9,10 +9,18 @@ using namespace std;
 
 #if 0
 
+vector<vector<int>> adj;
+
+vector<int> ans;
+
+vector<vector<int>> prefindex;
+
 int question(){
 
     cin.sync_with_stdio(0);
     cin.tie(0);
+
+    int n; cin >> n;
 
     return 0;
 }
