@@ -20,8 +20,24 @@ int g(int x){
     }
 }
 
+// cycle len
+void dfs(int cur) {
+    vis[cur] = 1;
+    for(int nxt : adj[cur]){
+        if(vis[nxt] == 1){
+            // cycle
+            cycle = d[cur] - d[nxt] + 1;
+        }
+        else if (vis[nxt] == 0){
+            d[nxt] = d[cur] + 1;
+            dfs(nxt);
+        }
+    }
+    vis[cur] = 2;
+}
+
 // backtrack 
-// 0 - x
+// 0 -> x
 int f(int x){
     if(x == 0){
         return 0;
