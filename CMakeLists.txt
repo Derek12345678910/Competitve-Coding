@@ -10,6 +10,8 @@ file(GLOB SOURCE_FILES
     "${CMAKE_SOURCE_DIR}/olyimpiads/*/*.cpp"
     "${CMAKE_SOURCE_DIR}/main.cpp"
     "${CMAKE_SOURCE_DIR}/random/*.cpp"
+    "${CMAKE_SOURCE_DIR}/others/*.cpp"
+    "${CMAKE_SOURCE_DIR}/usaco/*/*.cpp"
 )
 
 # Add executable target with source files listed in SOURCE_FILES variable

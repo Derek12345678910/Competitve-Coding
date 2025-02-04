@@ -7,10 +7,11 @@
 using namespace std;
 
 #if 0
-
+// binary search answer
 int question(){
 
     cin.sync_with_stdio(0); cin.tie(0);
+
 
     return 0;
 }

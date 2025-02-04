@@ -2,15 +2,20 @@
 #include <vector>
 #include <queue>
 #include <map>
-#include <set>
 
 using namespace std;
 
 #if 0
 
+vector<vector<char>> matrix;
+
 int question(){
 
-    cin.sync_with_stdio(0); cin.tie(0);
+    cin.sync_with_stdio(0);
+    cin.tie(0);
+
+    int n; cin >> n;
+    matrix.
 
     return 0;
 }

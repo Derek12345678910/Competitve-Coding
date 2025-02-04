@@ -11,7 +11,7 @@ using namespace std;
 int question(){
 
     cin.sync_with_stdio(0); cin.tie(0);
-
+    
     return 0;
 }
 
